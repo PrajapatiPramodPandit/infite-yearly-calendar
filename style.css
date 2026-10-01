@@ -1,0 +1,11 @@
+/* Hindi/English welcome heading */
+.welcome-text {
+    text-align: center;
+    color: #008000;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    margin-top: 20px;
+    background-image: url();
+    margin-bottom: 30px;
+}
