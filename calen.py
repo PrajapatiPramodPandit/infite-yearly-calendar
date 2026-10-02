@@ -27,6 +27,5 @@ pg = st.navigation(
     },
     position="sidebar"
 )
-
 # Run selected page--------------------------------
 pg.run()
