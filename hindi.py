@@ -21,7 +21,19 @@ st.markdown(
 
 st.markdown(
     '<div class="d2">'
-    '<iframe src="" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>'
+
+    '</div>',
+    unsafe_allow_html=True  
+)
+st.markdown(
+    '<div class="d3">'
+    
+    '</div>',
+    unsafe_allow_html=True  
+)
+st.markdown(
+    '<div class="d4">'
+    
     '</div>',
     unsafe_allow_html=True  
 )
