@@ -1,6 +1,6 @@
 import streamlit as st
 
-# Define pages
+# Define pages--------------------------------------
 hindi_page = st.Page(
     "hindi.py",
     title="Hindi",
@@ -13,13 +13,20 @@ english_page = st.Page(
     icon="🇬🇧"
 )
 
-# Sidebar navigation
+bio_page = st.Page(
+    "bioHindi.py",
+    title="BioHindi",
+    icon="👤",
+    visibility="hidden"
+)
+
+# Sidebar navigation--------------------------------
 pg = st.navigation(
     {
-        "🌐 Languages": [hindi_page, english_page]
+        "🌐 Languages": [hindi_page, english_page, bio_page]
     },
     position="sidebar"
 )
 
-# Run selected page
+# Run selected page--------------------------------
 pg.run()
