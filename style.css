@@ -12,6 +12,20 @@
     margin-bottom: 30px;
 }
 
+.date-text {
+    text-align: center;
+    color: #606060;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-image: url("https://raw.githubusercontent.com/PrajapatiPramodPandit/infite-yearly-calendar/refs/heads/main/asserts/calendar-calculation-header-light-mode.png");
+    background-size: cover;
+    margin-bottom: 30px;
+}
+
 .st-key-red_button button,
 [data-testid="st-key-red_button"] button {
     display: block !important;

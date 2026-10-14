@@ -14,7 +14,7 @@ st.markdown(
 )
 st.markdown(
     '<div class="d1">'
-    '<h6>यह कैलेंडर किसी भी तिथियों के दिनों को दिखाता है|</h6>'
+    '<h6>यह कैलेंडर किसी भी तिथियों के दिनों को दिखाता है। </h6>'
     '</div>',
     unsafe_allow_html=True  
 )
@@ -40,5 +40,5 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-if st.button("सोधकर्ता के बारे में", key="red_button"):
+if st.button("शोधकर्ता के बारे में", key="red_button"):
     st.switch_page("bioHindi.py")
