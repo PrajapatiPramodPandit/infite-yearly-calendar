@@ -72,3 +72,13 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
+h1{
+    text-align: center;
+    color: #ffffff;
+    font-size: 50px;
+    background-color: #BC0202;
+    font-weight: bold;
+    font-family: "Noto Sans Devanagari", sans-serif;
+    margin-top: 20px;;
+    border-radius: 10px;
+}
