@@ -19,11 +19,17 @@ bio_page = st.Page(
     icon="👤",
     visibility="hidden"
 )
+english_bio= st.Page(
+    "bioEnglish.py",
+    title="BioEnglish",
+    icon="👤",
+    visibility="hidden"
+)
 
 # Sidebar navigation--------------------------------
 pg = st.navigation(
     {
-        "🌐 Languages": [hindi_page, english_page, bio_page]
+        "🌐 Languages": [hindi_page, english_page, bio_page, english_bio]
     },
     position="sidebar"
 )
